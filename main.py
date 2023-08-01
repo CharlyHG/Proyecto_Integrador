@@ -5,8 +5,8 @@ print(f"Estamos muy felices de tenerte {jugador},git ¡Bienvenido a tu nuevo equ
 import readchar
 
 while True:
-    keypress = readchar.readkey()
-    print(keypress)
-    if keypress == readchar.key.UP:
+    tecla = readchar.readkey()
+    if tecla == readchar.key.UP:
         break
-   
+    print(tecla)
+ 
