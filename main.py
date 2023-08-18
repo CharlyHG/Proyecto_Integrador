@@ -1,3 +1,15 @@
-print("Nombre del jugador")
-jugador = input()
-print(f"Estamos muy felices de tenerte {jugador}, ¡felicitaciones y bienvenido! ¡Bienvenido a tu nuevo equipo! Estamos muy felices de que formes parte del juego. ¡Qué alegría tenerte con nosotros, bienvenido {jugador}!")
+import os
+
+# Parte 3
+num= 0
+while num < 51:
+    print(num)
+    num = num + 1
+    entry = input("Deseas terminar el conteo ? Y/N ")
+    if entry == "n":
+        os.system('cls' if os.name=='nt' else 'cls')
+    if entry == "y":
+        break
+
+
+        
